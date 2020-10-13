@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+Ejemplos XML
+	1. Se desea marcar con XML los datos de una empresa para que sea mas facil la busqueda de informacion con respectoa los pedidos que se han realizado. De cada pedido se tomará nota del articulo solicitado, nombre del destinatario, la dirección de envio y la fecha en la que se ha solicitado. Pon al menos dos ejemplos.
+
+
+	<pedidos>
+		<pedido>
+			<articulo>Auriculares</articulo>
+			<destinatario>
+				<nombre>Francisco Ibañez</nombre>
+				<direccion>Calle 13 Rue del Percebe</direccion>
+			</destinatario>
+			<fecha>02/10/2020</fecha>
+		</pedido>
+	</pedidos>
+
+
+
+
+	<pedidos>
+		<pedido>
+			<articulo>Planta sospechosa</articulo>
+			<destinatario>Pablo Escobar</destinatario>
+			<direccion>Colombia</direccion>
+			<fecha>02/10/2020</fecha>
+		</pedido>
+	</pedidos>
+
+
+	<hechos>
+		<descripcion = "IBM da a conocer el pc">
+		<fecha>
+			<dia></dia>
+			<mes></mes>
+			<año></año>
+		</fecha>
+	</hechos>
